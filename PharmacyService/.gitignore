@@ -1,0 +1,64 @@
+# Ignore Visual Studio files
+.vs/
+*.vscode/
+*.suo
+*.user
+*.sln
+*.bak
+*.cache
+*.csproj.user
+*.ide
+
+# Ignore NuGet packages
+packages/
+*.nupkg
+*.paket/paket-files/
+project.lock.json
+.paket/paket-files/
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore .NET Core build and debug folders
+[Dd]ebug/
+[Dd]ebug*/
+[Rr]elease/
+[Rr]elease*/
+*.pfx
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore logs and other generated files
+logs/
+*.log
+
+# Ignore local appsettings file
+appsettings.Development.json
+
+# Ignore macOS and Linux file system files
+.DS_Store
+Thumbs.db
+
+# Ignore user-specific files
+*.userprefs
+*.suo
+*.cache
+*.project
+*.out
+
+# Ignore Rider files
+.idea/
+*.sln.iml
+
+# Ignore Resharper files
+_ReSharper*/
+*.resharper*
+
+# Ignore Windows shortcut files
+*.lnk
+
+# Ignore Unity generated files
+Library/
+Temp/
